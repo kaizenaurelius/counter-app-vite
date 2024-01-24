@@ -6,3 +6,28 @@ html, body {
     padding: 70px;
 
 }
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4caf50; /* Color de fondo verde */
+    color: #fff; /* Color del texto blanco */
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  
+  /* Estilos adicionales al pasar el ratón sobre el botón */
+  button:hover {
+    background-color: #45a049; /* Cambia el color de fondo al pasar el ratón */
+  }
+  
+  /* Estilos adicionales cuando se presiona el botón */
+  button:active {
+    background-color: #3e8e41; /* Cambia el color de fondo cuando se presiona */
+  }
+  button span {
+    font-weight: bold; /* Hace que el texto sea más grueso o negrita */
+    font-size: 20px; /* Ajusta el tamaño del texto para resaltarlo */
+    margin-right: 5px; /* Agrega un margen a la derecha para separar el texto del borde */
+  }

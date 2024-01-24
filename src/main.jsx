@@ -9,7 +9,7 @@ import './styles.css'
 ReactDOM.createRoot( document.getElementById('root')).render(
   <React.StrictMode>
     <CounterApp 
-      value = {123}
+      value = { 30 }
     />
   </React.StrictMode>
 )
